@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* import fonts */
+
+/* body */
+body {
+    background: #292727;
+}
+
+/* typography */
+h1,
+h2,
+h3,
+label {
+    color: whitesmoke;
+}
+/* header */
+
+/* toppings */
+.topBun.toasted,
+.bottomBun.toasted {
+    fill: rgb(253, 182, 75);
+}
