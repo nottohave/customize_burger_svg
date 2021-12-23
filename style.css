@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
 * {
     padding: 0;
     margin: auto;
@@ -5,10 +7,6 @@
 }
 
 /* import fonts */
-@font-face {
-    font-family: "Roboto Mono";
-    src: url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
-}
 
 /* body */
 body {
@@ -52,18 +50,23 @@ button {
     border-radius: 10px;
     padding: 5px;
     background-color: cadetblue;
-    color: whitesmoke;
-    font-family: "Roboto Mono";
+    color: #ffffff;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
 }
 
 button:hover {
     background-color: wheat;
-    color: black;
-    font-size: 1rem;
+    color: #000000;
+    font-size: 14px;
 }
 
 /* toppings */
 .topBun.toasted,
 .bottomBun.toasted {
     fill: rgb(253, 182, 75);
+}
+
+.topping__protein {
+    fill:rgb(221, 139, 17);
 }
