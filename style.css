@@ -67,6 +67,14 @@ button:hover {
     fill: rgb(253, 182, 75);
 }
 
-.topping__protein {
+.protein.bbq-chicken {
     fill:rgb(221, 139, 17);
+}
+
+.cheese.american-cheese {
+    fill: whitesmoke;
+}
+
+.lettuce.kale {
+    fill: #006400;
 }

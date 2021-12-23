@@ -10,3 +10,8 @@ I am working on changing the color on the burger as user clicking on the topping
 
 Update 12/22/21
 Body and buttons got styled up. Hover effect added.
+Different flavors are added. 
+
+Next Update goal:
+Update text when user select and deselect flavor.
+The original burger does not have a flavor for itself.
