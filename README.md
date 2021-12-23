@@ -15,3 +15,4 @@ Different flavors are added.
 Next Update goal:
 Update text when user select and deselect flavor.
 The original burger does not have a flavor for itself.
+Should I make option where you can flip the burger? Maybe, I'll try.
