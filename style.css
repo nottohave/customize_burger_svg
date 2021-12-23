@@ -5,6 +5,10 @@
 }
 
 /* import fonts */
+@font-face {
+    font-family: "Roboto Mono";
+    src: url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+}
 
 /* body */
 body {
@@ -14,7 +18,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-top: 8rem;
+    padding: 3rem 0rem;
 }
 
 /* typography */
@@ -32,7 +36,31 @@ h1 {
 h3 {
     font-size: 2rem;
 }
-/* header */
+
+/* topping groups */
+.topping_group {
+    padding-top: 2rem;
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: cadetblue;
+    color: whitesmoke;
+    font-family: "Roboto Mono";
+}
+
+button:hover {
+    background-color: wheat;
+    color: black;
+    font-size: 1rem;
+}
 
 /* toppings */
 .topBun.toasted,
